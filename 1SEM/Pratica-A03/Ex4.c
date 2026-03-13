@@ -11,17 +11,18 @@ int main(){
     system("cls");
 
     if (salario>1000){
-        printf("O salario reajustado sera de %.2f, sofrendo um reajuste de 5%%.\n\n", salario+(0.05*salario));
+        printf("O salario reajustado sera de %.2f, sofrendo um reajuste de 5%%.\n\n", salario*1.05);
     }
     else{
         if (salario>=500){
-            printf("O salario reajustado sera de %.2f, sofrendo um reajuste de 10%%.\n\n", salario+(0.1*salario));
+            printf("O salario reajustado sera de %.2f, sofrendo um reajuste de 10%%.\n\n", salario*1.1;
         }
         else{
-            printf("O salario reajustado sera de %.2f, sofrendo um reajuste de 15%%.\n\n", salario+(0.15*salario));
+            printf("O salario reajustado sera de %.2f, sofrendo um reajuste de 15%%.\n\n", salario*1.15);
         }
     }
 
     system("pause");
     return(0);
 }
+
