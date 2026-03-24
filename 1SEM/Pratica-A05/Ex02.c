@@ -6,12 +6,12 @@ int main(){
     setlocale(LC_ALL, "portuguese");
     int num, i;
 
-    printf("Insira um número inteiro: ");
+    printf("Insira um nÃºmero inteiro: ");
     scanf("%i", &num);
 
     system("cls");
 
-    printf("Os números menores que %i divisíveis por 4 são: ", num);
+    printf("Os nÃºmeros menores que %i divisÃ­veis por 4 sÃ£o: ", num);
 
     for(i=1; i<num; i++){
         if((i%4)==0){

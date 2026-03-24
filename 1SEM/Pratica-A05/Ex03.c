@@ -13,7 +13,7 @@ int main(){
     segMaior = -32767;
 
     for(i=0; i<10; i++){
-        printf("Insira um número: ");
+        printf("Insira um nÃºmero: ");
         scanf("%f", &num);
 
         if(num>segMaior){
@@ -29,7 +29,7 @@ int main(){
 
     system("cls");
 
-    printf("\n\nO maior número e o segundo maior número inseridos foram, respectivamente, %.2f e %.2f.\n\n", maior, segMaior);
+    printf("\n\nO maior nÃºmero e o segundo maior nÃºmero inseridos foram, respectivamente, %.2f e %.2f.\n\n", maior, segMaior);
 
     system("pause");
     return 0;

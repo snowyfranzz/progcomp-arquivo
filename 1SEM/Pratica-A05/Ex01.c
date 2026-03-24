@@ -8,7 +8,7 @@ int main(){
     int intervalo1, intervalo2, intervalo3, intervalo4;
 
     do{
-        printf("Insira um número: ");
+        printf("Insira um nÃºmero: ");
         scanf("%f", &num);
 
         if(num >= 0 && num <= 100){

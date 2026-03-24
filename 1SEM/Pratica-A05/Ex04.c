@@ -5,9 +5,7 @@
 int main(){
     setlocale(LC_ALL, "portuguese");
     float i, icelsius;
-
-
-
+    
     for(i=30; i<51; i+=2){
 
         icelsius = (i-32)/1,8;
