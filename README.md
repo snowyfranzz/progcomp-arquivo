@@ -1,6 +1,6 @@
 # Arquivo Programação de Computadores
-:gb: [English](README.md)<br>
-:brazil: [Português](README-pt.md)
+:gb: [English](README-en.md)<br>
+:brazil: [Português](README.md)
 
 Arquivo de exercícios feitos na aula prática, teórica e para estudo da matéria Programação de Computadores.
 
