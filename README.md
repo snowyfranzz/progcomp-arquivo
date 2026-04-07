@@ -1,16 +1,19 @@
-# Arquivo Programação de Computadores
+# Arquivo - Exercícios de Programação
 :gb: [English](README-en.md)<br>
 :brazil: [Português](README.md)
 
-Arquivo de exercícios feitos na aula prática, teórica e para estudo da matéria Programação de Computadores.
+Arquivo de exercícios feitos para estudo, ambos no ambiente universitário e em casa.
 
-## Matérias aprendidas:
-- *Primeiro Semestre - Lingugagem C e lógica de programação*
+## Matérias aprendidas - faculdade:
+- *[Primeiro Semestre - Lingugagem C e lógica de programação](1SEM)*
     - Introdução à programação
     - Fundamentos da linguagem C (Estrutura geral, variáveis, comandos de entrada e saída, formatação, tipos de dados)
     - Comandos de seleção (If, else, switch)
     - Loops (For, while)
     - Arranjos unidimensionais (Vetores)
+
+## Cursos paralelos:
+- mooc.fi - Java Programming I
 
 ## Nomenclatura de pastas:
 - Teórica (data) -> Contém os exercícios realizados em aula teórica, seguido pela data em que a aula foi realizada.
