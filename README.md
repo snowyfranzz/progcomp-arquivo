@@ -1,21 +1,24 @@
-# Arquivo - Exercícios de Programação
-:gb: [English](README-en.md)<br>
-:brazil: [Português](README.md)
+# Archive - Coding Exercises
+:gb: [English](README.md)<br>
+:brazil: [Português](README-pt.md)
 
-Arquivo de exercícios feitos para estudo, ambos no ambiente universitário e em casa.
+An archive of exercises i've done to study programming, both in my university and at home.
 
-## Matérias aprendidas - Faculdade:
-- *[Primeiro Semestre](1SEM) - Lingugagem C e lógica de programação*
-    - Introdução à programação
-    - Fundamentos da linguagem C (Estrutura geral, variáveis, comandos de entrada e saída, formatação, tipos de dados)
-    - Comandos de seleção (If, else, switch)
+## Learned skills - University:
+- *[First Semester](1SEM) - C language and coding logic:*
+    - Introduction to coding
+    - Fundaments of the C language (General structuring, variables, input and output statements, formatting, types of data)
+    - Selection statements (If, else, switch)
     - Loops (For, while)
-    - Arranjos unidimensionais (Vetores)
+    - Unidimensional arrays (Vectors)
 
-## Cursos online:
+## Online courses
 - mooc.fi - Java Programming I
 
-## Nomenclatura de pastas:
-- Teórica (data) -> Contém os exercícios realizados em aula teórica, seguido pela data em que a aula foi realizada.
-- Prática A[x] -> Contém os exercícios realizados na aula prática x.
-- Estudo (data) -> Contém exercícios realizados em casa pra fins de estudo, seguido pela data em que os exercícios foram feitos.
+## Folder nomenclature:
+- Teórica (date) -> Contains the exercises done in theoric lectures, followed by the date that the lecture happened.
+- Prática A[x] -> Contains the exercises done in the practice class x.
+- Estudo (date) -> Contains exercises done at home for studying purposes, followed by the date that I did them.
+
+## Disclaimer - Language:
+- Most of the stuff here will be in portuguese, since it's mainly exercises i've done for university, however, the courses will be in english for the most part.
