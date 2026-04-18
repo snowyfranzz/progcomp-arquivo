@@ -27,7 +27,7 @@ int main(){
             printf("Seu aumento de salário foi de 20%, com novo valor de R$%.2f.\n\n", salario*1.2);
             break;
 
-        case 4:
+        default:
             printf("Plano de trabalho invalido.\n\n");
             break;
     }
