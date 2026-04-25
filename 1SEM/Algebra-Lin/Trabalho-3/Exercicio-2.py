@@ -1,11 +1,11 @@
-import numpy as np  
+import numpy as np
 import sympy as sp
 
-k = 1 - (0.1 + 0.5 + 0.2) # "Bruteforce" somente para inicialização, reatribuida depois usando a forma certinha
+kEx2 = 1 - (0.1 + 0.5 + 0.2) # "Bruteforce" somente para inicialização, reatribuida depois usando a forma certinha
 # Constantes
 MATRIZ_P = sp.Matrix([[0.75, 0, 0.15, 0.1],
                       [0.2, 0.5, 0.2, 0.1],
-                      [0.1, k, 0.5, 0.2],
+                      [0.1, kEx2, 0.5, 0.2],
                       [0, 0.1, 0.2, 0.7]])
 
 # Funcoes
@@ -28,8 +28,8 @@ print("=" * 62)
 print("Exercício 2A:\n")
 print("Pij significa a probabilidade de Ei virar Ej a cada hora.")
 
-k = 1 - (MATRIZ_P[2, 0] + MATRIZ_P[2, 2] + MATRIZ_P[2, 3])
-print(f"k = {k:.2f}")
+kEx2 = 1 - (MATRIZ_P[2, 0] + MATRIZ_P[2, 2] + MATRIZ_P[2, 3])
+print(f"k = {kEx2:.2f}")
 
 print("=" * 62)
 # ================= EXERCICIO 2B =================
@@ -66,10 +66,10 @@ for i in range(4):
     for j in range(4):
         if i == j and MATRIZ_P[i, j] == 1:
             print("A matriz entra em estado absorvente.")
-            
+
         elif i == 3 and j == 3:
             print("A matriz não entra em estado absorvente.")
-        
+
 
 print("=" * 62)
 # ================= EXERCICIO 2E =================
@@ -90,6 +90,7 @@ if numEstadoEstacionario != 0:
     print(f"O estado estacionário será atingido em E{numEstadoEstacionario}.\n")
     print("Matriz no estado estacionário:")
     sp.pprint(matEstacionaria)
+
 else:
     print("O estado estacionário não será atingido.")
 
