@@ -1,0 +1,1 @@
+Para dar um contexto: essa pasta contém alguns exercícios de python que eu fiz durante aulas que eu fui ver do curso de Engenharia de Software, que alguns amigos meus estão fazendo.
